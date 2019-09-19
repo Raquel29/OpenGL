@@ -39,7 +39,7 @@ int main (int argc, char** argv){
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);//Epecifica o sistema de cores 
 	glutInitWindowSize(400,350);  //Dimeções da janela
 	glutInitWindowPosition(200,100); // Posição das Janelas
-	glutCreateWindow("Desenhando Circuferencia");
+	glutCreateWindow("Desenhando Elipse");
 
 	init();
 
