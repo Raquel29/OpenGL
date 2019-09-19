@@ -16,7 +16,7 @@ void display(void){
 	GLfloat circle_points = 100.0f;
 	GLfloat angle, raioX=200.0f, raioY = 100.0f; // Os raios X e Y definem o tamanho da figura
 
-	glBegin(GL_LINE_LOOP);
+	glBegin(GL_POLYGON);
 		for(int i=0; i<circle_points;i++){
 			angle = (2*PI*i)/circle_points;
 			glVertex2f(cos(angle)*raioX,sin(angle)*raioY);
